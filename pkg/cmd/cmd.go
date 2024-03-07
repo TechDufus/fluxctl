@@ -9,9 +9,17 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/techdufus/fluxctl/cmd/config"
-	"github.com/techdufus/fluxctl/cmd/get"
+	"github.com/techdufus/fluxctl/pkg/cmd/config"
+	"github.com/techdufus/fluxctl/pkg/cmd/get"
+	"k8s.io/cli-runtime/pkg/genericclioptions"
+	"k8s.io/cli-runtime/pkg/genericiooptions"
 )
+
+type FluxctlOptions struct {
+	Arguments   []string
+	ConfigFlags *genericclioptions.ConfigFlags
+	genericiooptions.IOStreams
+}
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{

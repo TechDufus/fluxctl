@@ -31,5 +31,6 @@ func NewCmdConfig() *cobra.Command {
 		},
 	}
 	cmd.AddCommand(NewCmdConfigView())
+	cmd.AddCommand(NewCmdConfigSetCluster())
 	return cmd
 }
