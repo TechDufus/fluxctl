@@ -1,11 +1,12 @@
 # Fluxctl
 
 <p align="center">
-    <a href="https://github.com/TechDufus/fluxctl/actions/workflows/ansible-lint.yml"><img align="center" src="https://github.com/TechDufus/fluxctl/actions/workflows/ansible-lint.yml/badge.svg"/></a>
+    <a href="https://github.com/TechDufus/fluxctl/actions/workflows/test.yml"><img align="center" src="https://github.com/TechDufus/fluxctl/actions/workflows/test.yml/badge.svg"/></a>
+    <a href="https://github.com/TechDufus/fluxctl/releases"><img align="center" alt="GitHub Release" src="https://img.shields.io/github/v/release/TechDufus/fluxctl"></a>
     <a href="https://github.com/TechDufus/fluxctl/issues"><img align="center" src="https://img.shields.io/github/issues/techdufus/fluxctl"/></a>
     <a href="https://github.com/sponsors/TechDufus"><img align="center" src="https://img.shields.io/github/sponsors/techdufus"/></a>
     <a href="https://discord.io/techdufus"><img align="center" src="https://img.shields.io/discord/905178979844116520.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2"/></a>
-    <a href="https://github.com/TechDufus/fluxctl/commits/main"><img align="center" src="https://img.shields.io/github/commit-activity/m/techdufus/fluxnodeinstall" alt="commit frequency"></a>
+    <a href="https://github.com/TechDufus/fluxctl/commits/main"><img align="center" src="https://img.shields.io/github/commit-activity/m/techdufus/fluxctl" alt="commit frequency"></a>
 </p>
 
 Fluxctl is a specialized command-line tool that allows developers to run commands against the Flux API.
