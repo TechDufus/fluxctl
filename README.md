@@ -1,4 +1,13 @@
 # Fluxctl
+
+<p align="center">
+    <a href="https://github.com/TechDufus/FluxNodeInstall/actions/workflows/ansible-lint.yml"><img align="center" src="https://github.com/TechDufus/FluxNodeInstall/actions/workflows/ansible-lint.yml/badge.svg"/></a>
+    <a href="https://github.com/TechDufus/FluxNodeInstall/issues"><img align="center" src="https://img.shields.io/github/issues/techdufus/FluxNodeInstall"/></a>
+    <a href="https://github.com/sponsors/TechDufus"><img align="center" src="https://img.shields.io/github/sponsors/techdufus"/></a>
+    <a href="https://discord.io/techdufus"><img align="center" src="https://img.shields.io/discord/905178979844116520.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2"/></a>
+    <a href="https://github.com/TechDufus/FluxNodeInstall/commits/main"><img align="center" src="https://img.shields.io/github/commit-activity/m/techdufus/fluxnodeinstall" alt="commit frequency"></a>
+</p>
+
 Fluxctl is a specialized command-line tool that allows developers to run commands against the Flux API.
 
 ## Description
@@ -13,26 +22,26 @@ Ensure you have the following installed on your machine:
 - Git
 - Go (version 1.13 or later)
 ### Go
-  ```bash
-  go install techdufus/fluxctl@latest
-  ```
+```bash
+go install techdufus/fluxctl@latest
+```
 ### For Development
 1. Clone the repository:
-  ```bash
-  git clone https://github.com/TechDufus/fluxctl.git
-  ```
+```bash
+git clone https://github.com/TechDufus/fluxctl.git
+```
 2. Navigate into the cloned repository:
-  ```bash
-  cd fluxctl
-  ```
+```bash
+cd fluxctl
+```
 3. Build the project:
-  ```bash
-  go build
-  ```
+```bash
+go build
+```
 4. Install Fluxctl:
-  ```bash
-  go install
-  ```
+```bash
+go install
+```
 5. After the installation is complete, you can start using Fluxctl to run commands against the Flux API.
 
 ## Usage

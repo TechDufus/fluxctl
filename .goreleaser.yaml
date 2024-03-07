@@ -38,6 +38,25 @@ archives:
       - goos: windows
         format: zip
 
+release:
+  github:
+    name: fluxctl
+    owner: TechDufus
+  header: |
+    ## fluxctl Release! 🎉 ({{ .Date }})
+
+    Welcome to this new release!
+
+    This is a summary of the changes in this release:
+
+  footer: |
+    ## Thanks for using fluxctl!
+
+    ## Sponsor
+
+    Please consider sponsoring this project!
+    <a href="https://github.com/sponsors/TechDufus"><img align="center" src="https://img.shields.io/github/sponsors/techdufus"/></a>
+
 changelog:
   sort: asc
   filters:
