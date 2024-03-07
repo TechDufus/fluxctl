@@ -24,7 +24,7 @@ Ensure you have the following installed on your machine:
 - Go (version 1.13 or later)
 ### Go
 ```bash
-go install techdufus/fluxctl@latest
+go install github.com/techdufus/fluxctl@latest
 ```
 ### For Development
 1. Clone the repository:
