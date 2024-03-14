@@ -28,5 +28,6 @@ func NewCmdGet() *cobra.Command {
 			cmd.Help()
 		},
 	}
+	cmd.AddCommand(NewCmdGetApps())
 	return cmd
 }
