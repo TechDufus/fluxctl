@@ -1,0 +1,28 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Build fluxctl binary.
+    cmds:
+      - task: vet
+      # - task: test # no tests yet
+      - go build -v .
+    generates:
+      - fluxctl
+    method: timestamp
+
+  test:
+    desc: Run all tests.
+    cmds:
+      - go test -v ./...
+
+  vet:
+    desc: Run go vet.
+    cmds:
+      - go vet ./...
+
+  build-confirm:
+    desc: Confirm the build.
+    cmds:
+      - task: build
+      - ./fluxctl --version
